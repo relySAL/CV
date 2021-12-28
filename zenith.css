@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Mukta', sans-serif;
+  background-color: #F2FFE9;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background: #CAF2D7;
+  height: 567px;
+}
+
+.middle-container {
+  margin: 100px auto;
+}
+
+.bottom-container {
+  background-color: #E4EDDB;
+  padding: 50px 0 20px;
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #60A9A6;
+}
+
+h1 {
+  font-size: 3.125rem;
+  margin: 0;
+  padding-top: 10%;
+  font-family: 'Petit Formal Script', cursive;
+  color: #60A9A6;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #60A9A6;
+  font-weight: normal;
+}
+
+h3 {
+  color: #155E63;
+}
+
+.footer-link {
+  color: #155E63;
+  display: inline-block;
+}
+
+.top-cloud {
+  width: 10%;
+  position: absolute;
+  right: 35%;
+}
+
+.bottom-cloud {
+  width: 10%;
+  position: absolute;
+}
+
+.mountain {
+  width: 40%;
+}
+
+.Basset {
+  width: 10%;
+  height: 10%;
+}
+
+.fire {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.ice {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.circular {
+  border-radius: 100%;
+  background-color: #EAF6F6;
+}
+
+.fire:hover {
+  background-color: gold;
+}
+
+.ice:hover {
+  background-color: CornflowerBlue;
+}
+
+hr {
+  border-color: grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  line-height: 2;
+  margin: 100px auto;
+}
+
+.more {
+  margin-bottom: 50px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: Helvetica, "sans-serif";
+  transition: all .2s;
+  padding: 10px 20px;
+  border-radius: 100px;
+  background: #60A9A6;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  font-size: 15px;
+  margin: 25px auto 50px auto;
+}
+
+button:hover {
+  background: #a6c900;
+}
+
+button>svg {
+  width: 34px;
+  margin-left: 10px;
+  transition: transform .3s ease-in-out;
+}
+
+button:hover svg {
+  transform: translateX(5px);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.zenith{color: grey;
+font-size: 0.75rem;}
